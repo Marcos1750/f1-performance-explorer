@@ -4,7 +4,7 @@
 
 Primera versión terminada. Proyecto individual de análisis de datos con Python, NumPy, Pandas, Matplotlib y Jupyter Notebook.
 
-## Texto para la tarjeta del portfolio
+## Resumen
 
 Analicé 420 resultados de 21 Grandes Premios de Fórmula 1 para comparar el desempeño de pilotos y constructores durante 2019. Preparé y uní seis tablas, validé su integridad y construí métricas de puntos, recuperación de posiciones y llegadas clasificadas. Presenté los resultados mediante gráficos y conclusiones que explican tanto los hallazgos como los límites de las métricas.
 
@@ -12,7 +12,7 @@ Analicé 420 resultados de 21 Grandes Premios de Fórmula 1 para comparar el des
 
 **Enlace al proyecto:** [Ver análisis y código en GitHub](https://github.com/Marcos1750/f1-performance-explorer)
 
-**Imagen de portada sugerida:** [Campeonato de constructores](figures/constructores_puntos_2019.png)
+![Puntos del campeonato de constructores de Fórmula 1 en 2019: Mercedes lidera con 739, seguido por Ferrari con 504.](figures/constructores_puntos_2019.png)
 
 ## Objetivo
 
@@ -41,7 +41,7 @@ Limpieza y exploración de datos, uniones entre tablas, validación de integrida
 
 El análisis utiliza los resultados finales de los Grandes Premios de 2019. La recuperación se calcula como posición de largada menos posición final y excluye los casos no comparables. No identifica cada movimiento durante la carrera ni sus causas. El proyecto no incluye telemetría, datos por vuelta ni modelos predictivos.
 
-## Material para presentar el proyecto
+## Explorar el análisis
 
 - [README con gráficos y hallazgos](README.md)
 - [Notebook completo](notebooks/f1_performance_explorer.ipynb)
